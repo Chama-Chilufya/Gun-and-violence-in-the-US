@@ -18,7 +18,7 @@ sub = df_selected[['incident_id', 'No. killed', 'No.injured','state_house_distri
 Create a subplot with matplotlib
 f,ax = plt.subplots(figsize=(8,8))
 *Creating the correlation heatmap in seaborn by applying a heatmap onto the correlation matrix and the subplots defined above*.
-corr = sns.heatmap(sub.corr(), annot = True, ax = ax) # The `annot` argument allows the plot to 
+corr = sns.heatmap(sub.corr(), annot = True, ax = ax)  The `annot` argument allows the plot to 
 place the correlation coefficients onto the heatmap.
 
 *creating correlation using scatterplot*
